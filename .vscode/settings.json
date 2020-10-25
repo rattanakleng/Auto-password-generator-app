@@ -1,5 +1,6 @@
 {
     "editor.formatOnPaste": true,
     "prettier.tabWidth": 4,
-    "prettier.trailingComma": "all"
+    "prettier.trailingComma": "all",
+    "liveServer.settings.port": 5501
 }
