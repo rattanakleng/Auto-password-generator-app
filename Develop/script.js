@@ -18,7 +18,7 @@ function generatePassword() {
     var speChar;
     var speCharPw = "!&%$#@()^";
     var newPw = "";
-
+   
     //FUNCTION checkLength to PROMPT in put password length. CHECK input type and number 8-128 
 
     pwLength = prompt("Please enter any numbers between 8 and 128 for the lenght of password you want to creat.");
@@ -59,7 +59,6 @@ function generatePassword() {
         // CONFIRM for uppercase and create varible store user respond
         //upperCase = confirm("Do you want your password contain uppercase letter?");
         if (upperCase && newPw.length < pwLength) {
-
             newPw = newPw + upperCasePw.charAt(Math.floor(Math.random() * upperCasePw.length));
             console.log(newPw);
         };
